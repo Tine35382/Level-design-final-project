@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f01555a6c6964fbb49c6623b7cc45, type: 3}
+  m_Name: Chaingun
+  m_EditorClassIdentifier: 
+  weapon_type: 3
+  shot_cost: 2
+  animation_id: 4
+  damage: 15
+  use_projectile: 0
+  multi_shot: 0
+  use_gravity: 0
+  number_of_shots: 2
+  deviation: 6
+  distance: Infinity
+  shot_speed: Infinity
+  shot_rate: 0.0525
+  shot_interval: 0.108333334
+  kick_back: 50
+  weapon_name: Chaingun
+  weapon_spawn: {x: -0.25, y: -0.3, z: 0.2}
+  shot_spawn: {x: 0, y: 0, z: 0}
+  shot_direction: {x: 0, y: 0, z: 0}
+  shot_torque: {x: 0, y: 0, z: 0}
+  playermodel_t_offset: {x: -0.00038, y: 0.0026, z: -0.00179}
+  playermodel_r_offset: {x: 51.916, y: 112.626, z: 122.663}
+  playermodel_scale: {x: 3, y: 3, z: 3}
+  pm_model: {fileID: 1095066185926334020, guid: 78efdb3f919405b47b2b0a3a27f2cc25, type: 3}
+  model: {fileID: -2432090755550338912, guid: eccb39e9e3f3693459e11c7c396127d8, type: 3}
+  view_model: {fileID: 1456817682570111079, guid: 4ff5c78d42ceab748a2b4a9ae3d0044e, type: 3}
+  mats:
+  - {fileID: 7741625113677808684, guid: a881cfec06427d94ebe2baed6d66477a, type: 3}
+  projectile: {fileID: 0}
+  anim: {fileID: 9100000, guid: 08871e4fc8a8bdd4e9b322a51a4ff46e, type: 2}
+  fire_sound: {fileID: 8300000, guid: 120a8eed4004190479a5bf853b619df6, type: 3}
+  shot_miss:
+  - {fileID: 8300000, guid: 03e054cd650890a4ea18856830e19f23, type: 3}
+  - {fileID: 8300000, guid: f7804150855142f4b96286e4ef6fb7c2, type: 3}
+  - {fileID: 8300000, guid: 326db433d3c3ae44fb04c0a48d94e2f0, type: 3}
+  - {fileID: 8300000, guid: 72d4576eb0af2c54dac0a3821b40acb9, type: 3}
+  shot_hit:
+  - {fileID: 8300000, guid: c8ecfb9d9ecff2944805f808be51209a, type: 3}

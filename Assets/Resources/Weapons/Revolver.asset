@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86f01555a6c6964fbb49c6623b7cc45, type: 3}
+  m_Name: Revolver
+  m_EditorClassIdentifier: 
+  weapon_type: 1
+  shot_cost: 1
+  animation_id: 1
+  damage: 60
+  use_projectile: 0
+  multi_shot: 0
+  use_gravity: 0
+  number_of_shots: 1
+  deviation: 0
+  distance: Infinity
+  shot_speed: Infinity
+  shot_rate: 0
+  shot_interval: 0.75
+  kick_back: 250
+  weapon_name: Magnum
+  weapon_spawn: {x: 0, y: -0.115, z: 0.637}
+  shot_spawn: {x: 0, y: 0, z: 0}
+  shot_direction: {x: 0, y: 0, z: 0}
+  shot_torque: {x: 0, y: 0, z: 0}
+  playermodel_t_offset: {x: -0.001091, y: 0.002273, z: 0.000556}
+  playermodel_r_offset: {x: 7.935, y: -10.393, z: 34.373}
+  playermodel_scale: {x: 2.5, y: 2.5, z: 2}
+  pm_model: {fileID: 1095066185926334020, guid: daa064dab958c414c81bd0827f4e25e8, type: 3}
+  model: {fileID: -2432090755550338912, guid: dec2797cf1b1b7b4095fe8d3b6359cc0, type: 3}
+  view_model: {fileID: 3787803641238296730, guid: 85c51666afcc1f24f9b7695ab539fa16, type: 3}
+  mats:
+  - {fileID: 7741625113677808684, guid: 993dc119b5a0f754c95c5153cc2f4e0c, type: 3}
+  projectile: {fileID: 0}
+  anim: {fileID: 9100000, guid: a18e888e74bfcfe40aec923893075aae, type: 2}
+  fire_sound: {fileID: 8300000, guid: 5150f3c7f7b1dc345a9122cf09e67adc, type: 3}
+  shot_miss:
+  - {fileID: 8300000, guid: 03e054cd650890a4ea18856830e19f23, type: 3}
+  - {fileID: 8300000, guid: f7804150855142f4b96286e4ef6fb7c2, type: 3}
+  - {fileID: 8300000, guid: 326db433d3c3ae44fb04c0a48d94e2f0, type: 3}
+  - {fileID: 8300000, guid: 72d4576eb0af2c54dac0a3821b40acb9, type: 3}
+  shot_hit:
+  - {fileID: 8300000, guid: c8ecfb9d9ecff2944805f808be51209a, type: 3}

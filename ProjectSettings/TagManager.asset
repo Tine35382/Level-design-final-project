@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Ground
-  - Gun
-  - Document
-  - Boss
+  - NetworkManager
+  - Sound
+  - GenerationManager
   layers:
   - Default
   - TransparentFX
@@ -16,14 +14,14 @@ TagManager:
   - 
   - Water
   - UI
-  - Gun
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Viewmodel
+  - Projectile
+  - Pickup
+  - IgnoreProjectile
+  - ProjectileClip
   - 
   - 
   - 
